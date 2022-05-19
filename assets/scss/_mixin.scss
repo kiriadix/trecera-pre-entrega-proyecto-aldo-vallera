@@ -1,0 +1,12 @@
+@mixin flex_box ($j:center, $a:center) {
+    display: flex;
+    align-items: $a;
+    justify-content: $j;
+}
+
+@mixin width_height ($w:auto, $h:auto) {
+
+    width: $w;
+    height: $h;
+    
+}
